@@ -12,8 +12,6 @@ import { Header } from "@/components/dashboard/header";
 import React from "react";
 import { StatusPage } from "@/types/page";
 import Loading from "../loadingSkeleton";
-import page from "configurations";
-import { set } from "date-fns";
 
 // Add loading page
 

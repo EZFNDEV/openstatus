@@ -9,9 +9,8 @@ import { Feed } from "@/components/status-page/feed";
 import { MonitorList } from "@/components/status-page/monitor-list";
 import { StatusCheck } from "@/components/status-page/status-check";
 import { Separator } from "@openstatus/ui";
-import page from "../../configurations";
 import { StatusPage } from "../types/page";
-import { getStatus, getStatusReports } from "@/API";
+import { getStatus } from "@/API";
 
 import type {
 	Maintenance,

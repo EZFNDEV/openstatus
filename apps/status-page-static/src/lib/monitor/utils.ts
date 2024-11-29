@@ -1,10 +1,8 @@
 import {
   endOfDay,
-  endOfHour,
   startOfDay,
   startOfHour,
   subDays,
-  subHours,
 } from "date-fns";
 
 import type { MonitorPeriodicity } from "@openstatus/db/src/schema";

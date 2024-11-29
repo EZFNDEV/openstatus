@@ -10,7 +10,6 @@ import type { WorkspacePlan } from "@openstatus/db/src/schema/workspaces/validat
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { Menu } from "./menu";
-import { SubscribeButton } from "./subscribe-button";
 import { PageConfigurations } from "@/types/page";
 
 type Props = {
@@ -68,7 +67,7 @@ export function Header({ navigation, plan, page }: Props) {
             <Menu navigation={navigation} />
           </div>
           <div className="text-end sm:w-[120px]">
-            {isSubscribers ? <SubscribeButton slug={page.slug} /> : null}
+            {null /* Subscribe button here */}
           </div>
         </div>
       </div>
