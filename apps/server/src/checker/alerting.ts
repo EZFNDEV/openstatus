@@ -7,7 +7,7 @@ import {
 
 import type { MonitorFlyRegion } from "@openstatus/db/src/schema/constants";
 import { Redis } from "@openstatus/upstash";
-import { checkerAudit } from "../utils/audit-log";
+import { checkerAudit } from "@openstatus/api/src/utils/audit-log";
 import { providerToFunction } from "./utils";
 
 const redis = Redis.fromEnv();

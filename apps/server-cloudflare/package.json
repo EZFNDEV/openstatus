@@ -5,9 +5,11 @@
     "deploy": "wrangler deploy --minify"
   },
   "dependencies": {
-    "hono": "^4.6.12",
+    "hono": "4.5.3",
     "knex": "^3.1.0",
-    "p-limit": "^6.1.0"
+    "p-limit": "^6.1.0",
+    "@openstatus/api": "workspace:*",
+    "@openstatus/tracker": "workspace:*"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20241112.0",

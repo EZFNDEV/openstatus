@@ -12,7 +12,7 @@ import { Redis } from "@openstatus/upstash";
 
 import { flyRegions } from "@openstatus/db/src/schema/constants";
 import { env } from "../env";
-import { checkerAudit } from "../utils/audit-log";
+import { checkerAudit } from "@openstatus/api/src/utils/audit-log";
 import { triggerNotifications, upsertMonitorStatus } from "./alerting";
 
 export const checkerRoute = new Hono();
