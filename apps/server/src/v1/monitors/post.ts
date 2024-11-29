@@ -9,7 +9,7 @@ import { serialize } from "../../../../../packages/assertions/src";
 
 import { getLimit } from "@openstatus/db/src/schema/plan/utils";
 import { env } from "../../env";
-import { openApiErrorResponses } from "../../libs/errors/openapi-error-responses";
+import { openApiErrorResponses } from "@openstatus/api/src/errors/openapi-error-responses";
 import type { monitorsApi } from "./index";
 import { MonitorSchema } from "./schema";
 import { getAssertions } from "./utils";

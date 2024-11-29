@@ -6,7 +6,7 @@ import { page, pageSubscriber } from "@openstatus/db/src/schema";
 import { SubscribeEmail } from "@openstatus/emails";
 import { sendEmail } from "@openstatus/emails/src/send";
 import { HTTPException } from "hono/http-exception";
-import { openApiErrorResponses } from "../../libs/errors/openapi-error-responses";
+import { openApiErrorResponses } from "@openstatus/api/src/errors/openapi-error-responses";
 import type { pageSubscribersApi } from "./index";
 import { PageSubscriberSchema, ParamsSchema } from "./schema";
 

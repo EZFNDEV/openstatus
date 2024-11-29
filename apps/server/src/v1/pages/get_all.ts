@@ -3,7 +3,7 @@ import { createRoute, z } from "@hono/zod-openapi";
 import { db, eq } from "@openstatus/db";
 import { page } from "@openstatus/db/src/schema";
 import { HTTPException } from "hono/http-exception";
-import { openApiErrorResponses } from "../../libs/errors/openapi-error-responses";
+import { openApiErrorResponses } from "@openstatus/api/src/errors/openapi-error-responses";
 import type { pagesApi } from "./index";
 import { PageSchema } from "./schema";
 

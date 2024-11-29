@@ -6,7 +6,7 @@ import { monitor, monitorsToPages, page } from "@openstatus/db/src/schema";
 
 import { getLimit } from "@openstatus/db/src/schema/plan/utils";
 import { HTTPException } from "hono/http-exception";
-import { openApiErrorResponses } from "../../libs/errors/openapi-error-responses";
+import { openApiErrorResponses } from "@openstatus/api/src/errors/openapi-error-responses";
 import { isNumberArray } from "../utils";
 import type { pagesApi } from "./index";
 import { PageSchema } from "./schema";

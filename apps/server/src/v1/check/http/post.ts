@@ -4,7 +4,7 @@ import { db } from "@openstatus/db";
 import { check } from "@openstatus/db/src/schema/check";
 import percentile from "percentile";
 import { env } from "../../../env";
-import { openApiErrorResponses } from "../../../libs/errors/openapi-error-responses";
+import { openApiErrorResponses } from "@openstatus/api/src/errors/openapi-error-responses";
 import type { checkAPI } from "../index";
 import {
   AggregatedResponseSchema,

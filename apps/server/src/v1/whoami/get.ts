@@ -4,7 +4,7 @@ import { db } from "@openstatus/db/src/db";
 import { workspace } from "@openstatus/db/src/schema/workspaces";
 import { HTTPException } from "hono/http-exception";
 import type { whoamiApi } from ".";
-import { openApiErrorResponses } from "../../libs/errors/openapi-error-responses";
+import { openApiErrorResponses } from "@openstatus/api/src/errors/openapi-error-responses";
 import { schema } from "./schema";
 
 const getRoute = createRoute({

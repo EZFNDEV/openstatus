@@ -4,7 +4,7 @@ import { and, db, eq } from "@openstatus/db";
 import { statusReport, statusReportUpdate } from "@openstatus/db/src/schema";
 
 import { HTTPException } from "hono/http-exception";
-import { openApiErrorResponses } from "../../libs/errors/openapi-error-responses";
+import { openApiErrorResponses } from "@openstatus/api/src/errors/openapi-error-responses";
 import type { statusReportUpdatesApi } from "./index";
 import { ParamsSchema, StatusReportUpdateSchema } from "./schema";
 

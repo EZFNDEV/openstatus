@@ -5,7 +5,7 @@ import { monitor } from "@openstatus/db/src/schema";
 
 import { HTTPException } from "hono/http-exception";
 import { serialize } from "../../../../../packages/assertions/src/serializing";
-import { openApiErrorResponses } from "../../libs/errors/openapi-error-responses";
+import { openApiErrorResponses } from "@openstatus/api/src/errors/openapi-error-responses";
 import type { monitorsApi } from "./index";
 import { MonitorSchema, ParamsSchema } from "./schema";
 import { getAssertions } from "./utils";

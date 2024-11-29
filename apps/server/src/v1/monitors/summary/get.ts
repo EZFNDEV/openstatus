@@ -7,7 +7,7 @@ import { Redis } from "@openstatus/upstash";
 
 import { HTTPException } from "hono/http-exception";
 import { env } from "../../../env";
-import { openApiErrorResponses } from "../../../libs/errors/openapi-error-responses";
+import { openApiErrorResponses } from "@openstatus/api/src/errors/openapi-error-responses";
 import { isoDate } from "../../utils";
 import type { monitorsApi } from "../index";
 import { ParamsSchema } from "../schema";

@@ -4,7 +4,7 @@ import { cors } from "hono/cors";
 import { logger } from "hono/logger";
 
 import type { Limits } from "@openstatus/db/src/schema/plan/schema";
-import { handleError, handleZodError } from "../libs/errors";
+import { handleError, handleZodError } from "@openstatus/api/src/errors";
 import { checkAPI } from "./check";
 import { incidentsApi } from "./incidents";
 import { middleware } from "./middleware";

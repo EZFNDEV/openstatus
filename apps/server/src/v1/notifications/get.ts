@@ -7,7 +7,7 @@ import {
   page,
 } from "@openstatus/db/src/schema";
 import { HTTPException } from "hono/http-exception";
-import { openApiErrorResponses } from "../../libs/errors/openapi-error-responses";
+import { openApiErrorResponses } from "@openstatus/api/src/errors/openapi-error-responses";
 import type { notificationsApi } from "./index";
 import { NotificationSchema, ParamsSchema } from "./schema";
 

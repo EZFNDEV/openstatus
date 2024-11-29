@@ -9,6 +9,9 @@ import {
 } from "@openstatus/error";
 
 import { ZodError, z } from "zod";
+import { extendZodWithOpenApi } from "@hono/zod-openapi";
+
+extendZodWithOpenApi(z);
 
 export function handleError(err: Error, c: Context): Response {
   if (err instanceof ZodError) {

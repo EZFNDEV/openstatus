@@ -1,6 +1,6 @@
 import { OpenAPIHono } from "@hono/zod-openapi";
 
-import { handleZodError } from "../../libs/errors";
+import { handleZodError } from "@openstatus/api/src/errors";
 import type { Variables } from "../index";
 import { registerDeleteMonitor } from "./delete";
 import { registerGetMonitor } from "./get";

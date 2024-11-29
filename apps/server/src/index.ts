@@ -5,7 +5,7 @@ import { logger } from "hono/logger";
 
 import { checkerRoute } from "./checker";
 import { env } from "./env";
-import { handleError } from "./libs/errors";
+import { handleError } from "@openstatus/api/src/errors";
 import { publicRoute } from "./public";
 import { api } from "./v1";
 

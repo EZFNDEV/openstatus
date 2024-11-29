@@ -7,7 +7,7 @@ import { OSTinybird } from "@openstatus/tinybird";
 import { flyRegions } from "@openstatus/db/src/schema/constants";
 import { HTTPException } from "hono/http-exception";
 import { env } from "../../../env";
-import { openApiErrorResponses } from "../../../libs/errors/openapi-error-responses";
+import { openApiErrorResponses } from "@openstatus/api/src/errors/openapi-error-responses";
 import type { monitorsApi } from "../index";
 import { ParamsSchema, ResultRun } from "../schema";
 
